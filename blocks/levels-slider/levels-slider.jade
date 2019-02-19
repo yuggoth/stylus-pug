@@ -1,0 +1,12 @@
+include ../scripts/scripts
+mixin levels-slider(level)
+	+b.levels-slider#slider&attributes(attributes)
+		- var levels = [0, 137, 362, 746];
+		.levels-slider__thumb(style="left:"+levels[level-1]+"px")
+		.levels-slider__grade#slider-grade1 Не владею
+		.levels-slider__grade#slider-grade2 Использую готовые решения
+		.levels-slider__grade#slider-grade3 Использую готовые решения 
+			br 
+			и умею их переделывать
+		.levels-slider__grade#slider-grade4 Пишу сложный JS с нуля
+	+scripts(['levels-slider.js'])

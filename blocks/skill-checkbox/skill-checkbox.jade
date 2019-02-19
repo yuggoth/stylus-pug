@@ -1,0 +1,4 @@
+mixin skill-checkbox(i, name, checked)
+	+b.skill-checkbox&attributes(attributes)
+		input.skill-checkbox__input(id = "checkbox_"+i, type="checkbox", name="option", value="checkbox_"+i, checked= checked)
+		label.skill-checkbox__label(for="checkbox_"+i)= name

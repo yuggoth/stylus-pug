@@ -1,0 +1,13 @@
+extends /blocks/layout-default/layout-default
+
+block head
+	- var pageTitle = 'Анкета';
+
+block content
+	- var form = [["fio","Полное ФИО","Попова Екатерина Алексеевна"],["bday","Год рождения","1989"],["place","Место жительства","г. Иркутск, Россия"], ["skype","Скайп","-"],["mail","Почта","lena_lena1989@inbox.ru"]];
+	- var skills = [["БЭМ/OOCSS", false],["Pug(Jade)", false],["Stylus/LESS/SASS", false],["Работаю с SVG", false],["Верстаю семантично", true],["Accessibility (A11Y)", false],["ES2015/ES2016", false],["Gulp/GRUNT", false],["Webpack", false],["Дружу с WebGL", false],["jQuery", true],["Знаю/изучаю Angular", true],["Знаю/изучаю React", false],["Знаю/изучаю Node.js", true],["Использую Git", false],["С глазомером всё ок", true],["Читаю blog.csssr.ru", false],["Я ленивый(-ая)", false],["У меня хороший английский",false]];
+	- var tasks = [["Верстать",true],["Прокачиваться в JS",false],["Менеджерство",false],["Другое",false]];
+	- var about = "Ну-ууу-уу... Ээээ..."
+	- var level = 2
+	- var date = "01.10.2017"
+

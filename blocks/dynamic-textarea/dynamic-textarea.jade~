@@ -1,0 +1,3 @@
+mixin dynamic-textarea(about)
+	+b.dynamic-textarea&attributes(attributes)
+		textarea#text.dynamic-textarea__textarea= about

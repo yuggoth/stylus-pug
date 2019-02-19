@@ -1,0 +1,3 @@
+mixin empty-block(height)
+	+b.empty-block(style="height: {@height}")&attributes()
+		block

@@ -1,0 +1,32 @@
+.skill-checkbox
+	display block
+	position relative
+	padding 10px 0 0 28px
+
+.skill-checkbox__input
+	display none
+
+.skill-checkbox__label
+	color #000000
+	font-weight bold
+	font-size 21px
+	line-height 25px
+
+.skill-checkbox__label:after
+	dispaly block
+	position absolute
+	top 0
+	left 0
+
+.skill-checkbox__input + .skill-checkbox__label:after
+	content ''
+	display inline-block
+	background url("../images/form.png") 0 0 no-repeat
+	height 35px
+	width 24px
+
+.skill-checkbox__input:checked + .skill-checkbox__label:after
+	display inline-block
+	background url("../images/form.png") -24px 0 no-repeat
+	height 35px
+	width 24px

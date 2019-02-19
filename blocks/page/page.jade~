@@ -1,0 +1,4 @@
+include ../container/container
+mixin page(form, skills, tasks, about, level, date)
+	+b('body').page&attributes(attributes)
+		block

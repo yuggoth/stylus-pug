@@ -1,0 +1,6 @@
+include ../form-row/form-row
+
+mixin form(form)
+	+b.form&attributes(attributes)
+		each item in form
+			= item[1]

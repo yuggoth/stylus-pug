@@ -1,0 +1,3 @@
+mixin form-row()
+	+b.form-row&attributes(attributes)
+		block

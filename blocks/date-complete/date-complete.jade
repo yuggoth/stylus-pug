@@ -1,0 +1,4 @@
+mixin date-complete(date)
+	+b.date-complete&attributes(attributes)
+		label.date-complete__label(for="date")= "Дата заполнения"
+		input#date.date-complete__input(type="text", name="date", value= date)

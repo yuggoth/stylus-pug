@@ -1,0 +1,7 @@
+include ../task-radio/task-radio
+mixin tasks(tasks)
+	+b.tasks&attributes(attributes)
+		- var i = 0
+		each item in tasks
+			- i++
+			+task-radio (i, item[0], item[1])

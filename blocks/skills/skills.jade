@@ -1,0 +1,18 @@
+include ../skill-checkbox/skill-checkbox
+
+mixin skills(skills)
+	+b.skills&attributes(attributes)
+		- var i = 0
+		.col1
+			each skill in skills.slice(0,7)
+				- i++
+				+skill-checkbox(i, skill[0], skill[1])
+		.col2
+			each skill in skills.slice(7,14)
+				- i++
+				+skill-checkbox(i, skill[0], skill[1])
+		.col3
+			each skill in skills.slice(14,19)
+				- i++
+				+skill-checkbox(i, skill[0], skill[1])
+		.clear

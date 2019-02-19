@@ -1,0 +1,28 @@
+.form-row
+	display block
+
+.form-row__label
+	display table-cell
+	white-space nowrap
+	font-family "PT Sans", sans-serif
+	font-size 22px
+	font-weight bold
+	color #2f1b15
+	vertical-align bottom
+	padding-bottom 5px
+	
+.form-row-input-container
+	display table-cell
+	width 100%
+	padding-left 16px
+
+.form-row-input-container__input
+	width 100%
+	border 0
+	background url("../images/area_bg.png") left bottom no-repeat
+	padding-left 15px
+	font-family "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace
+	font-size 30px
+	font-weight 100
+	color #231f20
+	line-height 61px

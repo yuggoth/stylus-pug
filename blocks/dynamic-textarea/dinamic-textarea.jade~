@@ -1,0 +1,3 @@
+mixin dinamic-textarea()
+	+b.dinamic-textarea&attributes(attributes)
+		block

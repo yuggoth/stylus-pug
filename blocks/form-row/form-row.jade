@@ -1,0 +1,5 @@
+mixin form-row(id, name, value)
+	+b.form-row&attributes(attributes)
+		label.form-row__label(for="#{id}") #{name}
+		span.form-row-input-container
+			input.form-row-input-container__input(id=id, type="text", name="#{id}", value="#{value}")

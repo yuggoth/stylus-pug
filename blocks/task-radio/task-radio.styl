@@ -1,0 +1,35 @@
+.task-radio
+	display inline
+	position relative
+	padding 12px 19px 10px 32px
+
+.task-radio__input
+	display none
+
+.task-radio__label
+	color #000000
+	font-weight bold
+	font-size 20px
+	line-height 25px	
+
+.task-radio__label:after
+	dispaly block
+	position absolute
+	top 0
+	left 0
+
+.task-radio__input + .task-radio__label:after
+	display inline-block 
+	content ''
+	background-image url("../images/form.png")
+	background-repeat no-repeat
+	height 35px
+	width 27px
+
+.task-radio__input + .task-radio__label:after
+	background-position -56px 0
+
+.task-radio__input:checked + .task-radio__label:after
+	background-position -83px 0	
+
+

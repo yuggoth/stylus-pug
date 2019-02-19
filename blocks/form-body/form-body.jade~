@@ -1,0 +1,11 @@
+mixin form-body(anketa, skillz, tasks, about)
+	+b.form-body&attributes(attributes)
+		block
+
+
+
+
+
+				
+
+

@@ -1,0 +1,3 @@
+mixin tasks()
+	+b.tasks&attributes(attributes)
+		block

@@ -1,0 +1,4 @@
+mixin task-radio(i, name, checked)
+	+b.task-radio&attributes(attributes)
+		input.task-radio__input(id = "radio_"+i, type="radio", name="option", value="radio_"+i, checked= checked)
+		label.task-radio__label(for="radio_"+i)= name

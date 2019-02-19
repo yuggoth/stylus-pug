@@ -1,0 +1,3 @@
+mixin form-header()
+	+b.form-header&attributes(attributes)
+		.form-header__delo
